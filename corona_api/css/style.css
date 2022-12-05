@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding:0 10px;
+}
+a{
+    text-decoration: none;
+}
+.header{
+   align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 15px;
+    /* z-index: 4; */
+
+   
+}
+
+nav a{
+    margin-left: 25px;
+    color: #fff;
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 19px;
+    font-family: "Josefin Sans", sans-serif;
+    
+}
+nav a:hover{
+    color: #fff;
+}
+.header-all{
+   background-image: url(https://pixner.net/kapoha/assets/images/banner/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 93px;
+  
+ 
+}
+.main{
+    padding: 65px;
+    z-index: 2;
+}
+.header-all .main h2{
+    font-size: 148px;
+    font-weight: 800;
+    font-family: "Josefin Sans", sans-serif;
+    margin-bottom: 0.5rem;
+    color: #fff;
+    
+}
+.header-all .main h3{
+    color: #fff;
+    font-size: 89px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-shadow: 12px 20.785px 9px rgb(39 50 114 / 63%);
+}
+.header-all .main p{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 65px;
+}
+.protect{
+    background-color: #7a00ff;
+    color: white;
+    font-weight: 600;
+    box-shadow: inset 0px 0px 15px 0 rgb(255 255 255 / 90%);
+    border: none;
+    font-size: 16px;
+    border-radius: 25px;
+    padding: 13px 40px;
+
+}
+.protect:hover{
+    background-color:#970275;
+    color: #fff;
+}
+.check{
+    background-color:#C760B0;
+    color: white;
+    font-weight: 600;
+    box-shadow: inset 0px 0px 15px 0 rgb(255 255 255 / 90%);
+    border: none;
+    font-size: 16px;
+    border-radius: 25px;
+    padding: 13px 40px;
+    margin-left: 30px;
+}
+.check:hover{
+    background-color: #7a00ff;
+    color:#fff;
+}
+
+
+.btn{
+    border-radius: 28px;
+    border: 1px solid #3D009F;
+    padding: 17px 30px;
+    font-weight: 600;
+    box-shadow: 0px 0px 7.8px 5.2px rgb(0 0 0 / 3%);
+    font-size: 16px;
+    font-family: "Josefin Sans", sans-serif;
+    color: #fff;
+    margin-top: 0;
+}
+.btn:hover{
+    background-color:rebeccapurple;
+    outline: 0;
+    text-decoration: none;
+    color:#fff;
+}
+
+.bg_img1{
+    width: 71%;
+    position: absolute;
+    right: 0%;
+    z-index: 1;
+}
+
+#main{
+    background-image:url(https://pixner.net/kapoha/assets/images/about-bg.png);
+    vertical-align: bottom;
+    background-position: center;
+    background-size: cover;
+   
+}
+#countries{
+    background-color: #fff;
+}
+.inp{
+    margin-top: 120px;
+}
+.inp input{
+    margin-bottom: 40px;
+    padding: 16px;
+    border-radius: 20px;
+}
+
+#card{
+    background-color: #fff;
+}
+.main-all h3{
+text-align: center;
+margin-top: 90px;
+color: #fff;
+font-size: 50px;
+font-family: "Josefin Sans", sans-serif;
+}
